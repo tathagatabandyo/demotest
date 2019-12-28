@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#ll ul {
+    list-style: none;
+}
+#ll ul li {
+    background-color:blue;
+	width: 150px;
+	border: 1px solid white;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	color:white;
+	font-size: 20px; 
+	position: relative;  
+}
+#ll ul li:hover {
+    background-color: green;
+}
+#ll ul ul {
+    display: none;
+}
+#ll ul li:hover > ul {
+    display: block;    
+}
+#ll ul ul ul {
+    margin-left: 150px;
+    top: 0%;
+    position: absolute;
+
+}
+body
+{
+    background-color: blueviolet;
+}
